@@ -36,5 +36,7 @@ INSERT INTO users (name, email, gender, date_of_birth, salary) VALUES
 ('Juhi', 'juhi@example.com', 'Female', '1992-10-14', 59000.00),
 ('Tushar', 'tushar@example.com', 'Male', '1990-01-08', 73000.00),
 ('Lata', 'lata@example.com', 'Female', '1984-11-11', 78000.00),
+
+select * from users; -- usually select all data and shows the data
 ('Yash', 'yash@example.com', 'Male', '1997-06-06', 64000.00),
 ('Fatima', 'fatima@example.com', 'Female', '1993-03-03', 55000.00);
