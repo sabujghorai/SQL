@@ -46,3 +46,5 @@ select name,gender from users; -- will show the name and gender from users table
 select * from users where gender= 'female' ; -- will show those data where gender is female
 
 select * from users where gender<>'male' ; -- where gender is not equal to male
+
+select * from users where gender!='male'; -- this is also gender is not equal to male
