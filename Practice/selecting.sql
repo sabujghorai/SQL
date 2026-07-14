@@ -194,3 +194,34 @@ select * from users where gender in ('male') or salary > '70000' limit 5;
 
 
 update users set created_at = '2026-07-14' ; -- every row will contain 2026-07-14 this value
+
+select * from users ;
++----+----------------------+----------+--------+---------------+----------+------------+
+| id | email                | name     | gender | date_of_birth | salary   | created_at |
++----+----------------------+----------+--------+---------------+----------+------------+
+|  1 | aarav@example.com    | Aarav    | Male   | 1995-05-14    | 65000.00 | 2026-07-14 |
+|  2 | ananya@example.com   | Ananya   | Female | 1990-11-23    | 72000.00 | 2026-07-14 |
+|  3 | raj@example.com      | Raj      | Male   | 1988-02-17    | 58000.00 | 2026-07-14 |
+|  4 | sneha@example.com    | Sneha    | Female | 2000-08-09    | 50000.00 | 2026-07-14 |
+|  5 | farhan@example.com   | Farhan   | Male   | 1993-12-30    | 61000.00 | 2026-07-14 |
+|  6 | priyanka@example.com | Priyanka | Female | 1985-07-12    | 84000.00 | 2026-07-14 |
+|  7 | aisha@example.com    | Aisha    | Female | 1997-03-25    | 56000.00 | 2026-07-14 |
+|  8 | aditya@example.com   | Aditya   | Male   | 1992-06-17    | 69000.00 | 2026-07-14 |
+|  9 | meera@example.com    | Meera    | Female | 1989-09-05    | 77000.00 | 2026-07-14 |
+| 10 | ishaan@example.com   | Ishaan   | Male   | 2001-10-02    | 45000.00 | 2026-07-14 |
+| 11 | tanvi@example.com    | Tanvi    | Female | 1994-04-18    | 62000.00 | 2026-07-14 |
+| 12 | rohan@example.com    | Rohan    | Male   | 1986-12-01    | 75000.00 | 2026-07-14 |
+| 13 | zoya@example.com     | Zoya     | Female | 1998-01-15    | 54000.00 | 2026-07-14 |
+| 14 | karan@example.com    | Karan    | Male   | 1990-08-22    | 68000.00 | 2026-07-14 |
+| 15 | nikita@example.com   | Nikita   | Female | 1987-03-10    | 71000.00 | 2026-07-14 |
+| 16 | manav@example.com    | Manav    | Male   | 1996-11-29    | 61000.00 | 2026-07-14 |
+| 17 | divya@example.com    | Divya    | Female | 1991-02-28    | 57000.00 | 2026-07-14 |
+| 18 | harshit@example.com  | Harshit  | Male   | 1993-09-09    | 65000.00 | 2026-07-14 |
+| 19 | ritika@example.com   | Ritika   | Female | 1999-05-05    | 52000.00 | 2026-07-14 |
+| 20 | imran@example.com    | Imran    | Male   | 1995-07-30    | 63000.00 | 2026-07-14 |
+| 21 | juhi@example.com     | Juhi     | Female | 1992-10-14    | 59000.00 | 2026-07-14 |
+| 22 | tushar@example.com   | Tushar   | Male   | 1990-01-08    | 73000.00 | 2026-07-14 |
+| 23 | lata@example.com     | Lata     | Female | 1984-11-11    | 78000.00 | 2026-07-14 |
+| 24 | yash@example.com     | Yash     | Male   | 1997-06-06    | 64000.00 | 2026-07-14 |
+| 25 | fatima@example.com   | Fatima   | Female | 1993-03-03    | 55000.00 | 2026-07-14 |
++----+----------------------+----------+--------+---------------+----------+------------+
