@@ -25,7 +25,6 @@ alter table users drop column is_active ;
 
 -- To modify a table 
 alter table users modify column email varchar(120);
-
 -- To move a column after a column
 alter table users modify column email varchar(130) after id;
 -- TO move the column to first
