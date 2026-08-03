@@ -39,11 +39,7 @@ INSERT INTO users (name, email, gender, date_of_birth, salary) VALUES
 ('Fatima', 'fatima@example.com', 'Female', '1993-03-03', 55000.00);
 
 select * from users; -- usually select all data and shows the data
-
 select name,gender from users; -- will show the name and gender from users table
-
 select * from users where gender= 'female' ; -- will show those data where gender is female
-
 select * from users where gender<>'male' ; -- where gender is not equal to male
-
 select * from users where gender!='male'; -- this is also gender is not equal to male
