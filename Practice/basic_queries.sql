@@ -13,16 +13,12 @@ CREATE TABLE users(
 
 --  To drop the databse
 DROP DATABASE startersql;
-
 -- selecting data from table
 select * from users;
-
 -- add extra column using queries
 alter table users add column is_active boolean default true;
-
 -- to delete a column of a table 
 alter table users drop column is_active ;
-
 -- To modify a table 
 alter table users modify column email varchar(120);
 -- To move a column after a column
