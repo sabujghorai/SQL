@@ -84,3 +84,25 @@ select First_Name from employees ;
 | Sneha      |
 | Vikram     |
 +------------+
+
+
+select Last_Name from employees ;
++-----------+
+| Last_Name |
++-----------+
+| Das       |
+| Gupta     |
+| Iyer      |
+| Joshi     |
+| Kumar     |
+| Malhotra  |
+| Mehta     |
+| Nair      |
+| Patel     |
+| Rao       |
+| Reddy     |
+| Sharma    |
+| Singh     |
+| Varma     |
+| Verma     |
++-----------+
