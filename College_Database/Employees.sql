@@ -16,3 +16,6 @@ VALUES
 (113, 'Sanjay', 'Kumar', 'sanjaykumar@example.com', '9901234567', 51000, 'Male', 5),
 (114, 'Divya', 'Reddy', 'divyareddy@example.com', '9912345678', 68000, 'Female', 4),
 (115, 'Nikhil', 'Das', 'nikhildas@example.com', '9923456789', 60000, 'Male', 1);
+
+
+select * from Employees ;
