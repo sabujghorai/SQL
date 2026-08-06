@@ -62,3 +62,25 @@ select * from Employees where salary > 40000;
 |         114 | Divya      | Reddy     | divyareddy@example.com    | 9912345678 |  68000 | female |             4 |
 |         115 | Nikhil     | Das       | nikhildas@example.com     | 9923456789 |  60000 | male   |             1 |
 +-------------+------------+-----------+---------------------------+------------+--------+--------+---------------+
+
+
+select First_Name from employees ;
++------------+
+| First_Name |
++------------+
+| Amit       |
+| Anjali     |
+| Arjun      |
+| Divya      |
+| Karan      |
+| Meera      |
+| Neha       |
+| Nikhil     |
+| Pooja      |
+| Priya      |
+| Rahul      |
+| Rohit      |
+| Sanjay     |
+| Sneha      |
+| Vikram     |
++------------+
