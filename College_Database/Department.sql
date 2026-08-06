@@ -10,3 +10,5 @@ VALUES
 (108, 'Data Science', 'Noida'),
 (109, 'Cyber Security', 'Kolkata'),
 (110, 'Human Resources', 'Gurugram');
+
+select * from Departments ;
