@@ -30,4 +30,3 @@ select * from Departments ;
 |           109 | Cyber Security                | Kolkata   |
 |           110 | Human Resources               | Gurugram  |
 +---------------+-------------------------------+-----------+
-12 rows in set (0.001 sec)
