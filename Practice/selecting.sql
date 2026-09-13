@@ -192,7 +192,6 @@ select * from users where gender in ('male') or salary > '70000' limit 5;
 
 
 update users set created_at = '2026-07-14' ; -- every row will contain 2026-07-14 this value
-
 select * from users ;
 +----+----------------------+----------+--------+---------------+----------+------------+
 | id | email                | name     | gender | date_of_birth | salary   | created_at |
