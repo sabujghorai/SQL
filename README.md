@@ -1,5 +1,4 @@
 <h1 align="center">🗄️ SQL Learning Repository</h1>
-
 <p align="center">
   A comprehensive collection of SQL concepts, queries, and practice problems.<br>
   Documenting my journey to master SQL for Data Analytics, Data Science, and MLOps.
