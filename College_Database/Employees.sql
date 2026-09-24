@@ -17,7 +17,6 @@ VALUES
 (114, 'Divya', 'Reddy', 'divyareddy@example.com', '9912345678', 68000, 'Female', 4),
 (115, 'Nikhil', 'Das', 'nikhildas@example.com', '9923456789', 60000, 'Male', 1);
 
-
 select * from Employees ;
 +-------------+------------+-----------+---------------------------+------------+--------+--------+---------------+
 | Employee_ID | First_Name | Last_Name | Email                     | Phone      | Salary | Gender | Department_ID |
