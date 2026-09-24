@@ -28,5 +28,3 @@ WHERE Employee_ID IN (
         WHERE D.Department_Name = 'IT'
     ) AS temp
 );
-
-SELECT * FROM Employee_Details;
